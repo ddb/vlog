@@ -1,0 +1,562 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -filter
+Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf
+
+Design file:              main.ncd
+Physical constraint file: main.pcf
+Device,package,speed:     xc3s500e,vq100,-4 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "my_clock/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is  10.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "my_clock/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 21.250ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 31.250ns
+  Low pulse: 15.625ns
+  Low pulse limit: 5.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: my_clock/DCM_SP_INST/CLKIN
+  Logical resource: my_clock/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: my_clock/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+Slack: 21.250ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 31.250ns
+  High pulse: 15.625ns
+  High pulse limit: 5.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: my_clock/DCM_SP_INST/CLKIN
+  Logical resource: my_clock/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: my_clock/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+Slack: 27.084ns (period - min period limit)
+  Period: 31.250ns
+  Min period limit: 4.166ns (240.038MHz) (Tdcmpc)
+  Physical resource: my_clock/DCM_SP_INST/CLKIN
+  Logical resource: my_clock/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: my_clock/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "my_clock/CLKFX_BUF" derived from  
+NET "my_clock/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;  divided by 2.50 to 
+12.500 nS and duty cycle corrected to HIGH 6.250 nS  
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 4898 paths analyzed, 529 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.810ns.
+--------------------------------------------------------------------------------
+
+Paths for end point window_index_1 (SLICE_X20Y55.BY), 21 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     4.690ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_6 (FF)
+  Destination:          window_index_1 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.810ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_6 to window_index_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X18Y50.YQ      Tcko                  0.652   the_joystick/joystick_up_debounce<7>
+                                                       the_joystick/joystick_up_debounce_6
+    SLICE_X20Y50.G4      net (fanout=2)        1.203   the_joystick/joystick_up_debounce<6>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y55.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y55.CLK     Tsrck                 1.117   window_index<1>
+                                                       window_index_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.810ns (3.936ns logic, 3.874ns route)
+                                                       (50.4% logic, 49.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.169ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_5 (FF)
+  Destination:          window_index_1 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.331ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_5 to window_index_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y50.XQ      Tcko                  0.591   the_joystick/joystick_up_debounce<5>
+                                                       the_joystick/joystick_up_debounce_5
+    SLICE_X20Y50.G2      net (fanout=2)        0.785   the_joystick/joystick_up_debounce<5>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y55.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y55.CLK     Tsrck                 1.117   window_index<1>
+                                                       window_index_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.331ns (3.875ns logic, 3.456ns route)
+                                                       (52.9% logic, 47.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.221ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_4 (FF)
+  Destination:          window_index_1 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.279ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_4 to window_index_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y50.YQ      Tcko                  0.587   the_joystick/joystick_up_debounce<5>
+                                                       the_joystick/joystick_up_debounce_4
+    SLICE_X20Y50.G1      net (fanout=2)        0.737   the_joystick/joystick_up_debounce<4>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y55.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y55.CLK     Tsrck                 1.117   window_index<1>
+                                                       window_index_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.279ns (3.871ns logic, 3.408ns route)
+                                                       (53.2% logic, 46.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point window_index_0 (SLICE_X20Y55.BY), 21 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     4.690ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_6 (FF)
+  Destination:          window_index_0 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.810ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_6 to window_index_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X18Y50.YQ      Tcko                  0.652   the_joystick/joystick_up_debounce<7>
+                                                       the_joystick/joystick_up_debounce_6
+    SLICE_X20Y50.G4      net (fanout=2)        1.203   the_joystick/joystick_up_debounce<6>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y55.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y55.CLK     Tsrck                 1.117   window_index<1>
+                                                       window_index_0
+    -------------------------------------------------  ---------------------------
+    Total                                      7.810ns (3.936ns logic, 3.874ns route)
+                                                       (50.4% logic, 49.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.169ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_5 (FF)
+  Destination:          window_index_0 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.331ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_5 to window_index_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y50.XQ      Tcko                  0.591   the_joystick/joystick_up_debounce<5>
+                                                       the_joystick/joystick_up_debounce_5
+    SLICE_X20Y50.G2      net (fanout=2)        0.785   the_joystick/joystick_up_debounce<5>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y55.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y55.CLK     Tsrck                 1.117   window_index<1>
+                                                       window_index_0
+    -------------------------------------------------  ---------------------------
+    Total                                      7.331ns (3.875ns logic, 3.456ns route)
+                                                       (52.9% logic, 47.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.221ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_4 (FF)
+  Destination:          window_index_0 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.279ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_4 to window_index_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y50.YQ      Tcko                  0.587   the_joystick/joystick_up_debounce<5>
+                                                       the_joystick/joystick_up_debounce_4
+    SLICE_X20Y50.G1      net (fanout=2)        0.737   the_joystick/joystick_up_debounce<4>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y55.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y55.CLK     Tsrck                 1.117   window_index<1>
+                                                       window_index_0
+    -------------------------------------------------  ---------------------------
+    Total                                      7.279ns (3.871ns logic, 3.408ns route)
+                                                       (53.2% logic, 46.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point window_index_0_1 (SLICE_X20Y54.BY), 21 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     4.690ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_6 (FF)
+  Destination:          window_index_0_1 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.810ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_6 to window_index_0_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X18Y50.YQ      Tcko                  0.652   the_joystick/joystick_up_debounce<7>
+                                                       the_joystick/joystick_up_debounce_6
+    SLICE_X20Y50.G4      net (fanout=2)        1.203   the_joystick/joystick_up_debounce<6>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y54.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y54.CLK     Tsrck                 1.117   window_index_0_1
+                                                       window_index_0_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.810ns (3.936ns logic, 3.874ns route)
+                                                       (50.4% logic, 49.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.169ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_5 (FF)
+  Destination:          window_index_0_1 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.331ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_5 to window_index_0_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y50.XQ      Tcko                  0.591   the_joystick/joystick_up_debounce<5>
+                                                       the_joystick/joystick_up_debounce_5
+    SLICE_X20Y50.G2      net (fanout=2)        0.785   the_joystick/joystick_up_debounce<5>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y54.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y54.CLK     Tsrck                 1.117   window_index_0_1
+                                                       window_index_0_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.331ns (3.875ns logic, 3.456ns route)
+                                                       (52.9% logic, 47.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.221ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               the_joystick/joystick_up_debounce_4 (FF)
+  Destination:          window_index_0_1 (FF)
+  Requirement:          12.500ns
+  Data Path Delay:      7.279ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 0.000ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: the_joystick/joystick_up_debounce_4 to window_index_0_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y50.YQ      Tcko                  0.587   the_joystick/joystick_up_debounce<5>
+                                                       the_joystick/joystick_up_debounce_4
+    SLICE_X20Y50.G1      net (fanout=2)        0.737   the_joystick/joystick_up_debounce<4>
+    SLICE_X20Y50.Y       Tilo                  0.759   window_index_mux0000<2>1103
+                                                       the_joystick/joystick_up4
+    SLICE_X19Y51.F2      net (fanout=3)        0.463   the_joystick/joystick_up4
+    SLICE_X19Y51.X       Tilo                  0.704   joystick_up
+                                                       the_joystick/joystick_up13
+    SLICE_X23Y52.F1      net (fanout=6)        1.231   joystick_up
+    SLICE_X23Y52.X       Tilo                  0.704   window_index_and0002
+                                                       window_index_and0002
+    SLICE_X20Y54.BY      net (fanout=6)        0.977   window_index_and0002
+    SLICE_X20Y54.CLK     Tsrck                 1.117   window_index_0_1
+                                                       window_index_0_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.279ns (3.871ns logic, 3.408ns route)
+                                                       (53.2% logic, 46.8% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: PERIOD analysis for net "my_clock/CLKFX_BUF" derived from
+ NET "my_clock/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+ divided by 2.50 to 12.500 nS and duty cycle corrected to HIGH 6.250 nS 
+
+--------------------------------------------------------------------------------
+
+Paths for end point the_joystick/joystick_left_debounce_3 (SLICE_X23Y35.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.976ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               the_joystick/joystick_left_debounce_2 (FF)
+  Destination:          the_joystick/joystick_left_debounce_3 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.976ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 12.500ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: the_joystick/joystick_left_debounce_2 to the_joystick/joystick_left_debounce_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y35.YQ      Tcko                  0.470   the_joystick/joystick_left_debounce<3>
+                                                       the_joystick/joystick_left_debounce_2
+    SLICE_X23Y35.BX      net (fanout=2)        0.413   the_joystick/joystick_left_debounce<2>
+    SLICE_X23Y35.CLK     Tckdi       (-Th)    -0.093   the_joystick/joystick_left_debounce<3>
+                                                       the_joystick/joystick_left_debounce_3
+    -------------------------------------------------  ---------------------------
+    Total                                      0.976ns (0.563ns logic, 0.413ns route)
+                                                       (57.7% logic, 42.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point the_joystick/joystick_left_debounce_7 (SLICE_X23Y36.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.980ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               the_joystick/joystick_left_debounce_6 (FF)
+  Destination:          the_joystick/joystick_left_debounce_7 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.980ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 12.500ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: the_joystick/joystick_left_debounce_6 to the_joystick/joystick_left_debounce_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y36.YQ      Tcko                  0.470   the_joystick/joystick_left_debounce<7>
+                                                       the_joystick/joystick_left_debounce_6
+    SLICE_X23Y36.BX      net (fanout=2)        0.417   the_joystick/joystick_left_debounce<6>
+    SLICE_X23Y36.CLK     Tckdi       (-Th)    -0.093   the_joystick/joystick_left_debounce<7>
+                                                       the_joystick/joystick_left_debounce_7
+    -------------------------------------------------  ---------------------------
+    Total                                      0.980ns (0.563ns logic, 0.417ns route)
+                                                       (57.4% logic, 42.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point the_joystick/joystick_right_debounce_5 (SLICE_X23Y46.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.980ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               the_joystick/joystick_right_debounce_4 (FF)
+  Destination:          the_joystick/joystick_right_debounce_5 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.980ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         local_clock rising at 12.500ns
+  Destination Clock:    local_clock rising at 12.500ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: the_joystick/joystick_right_debounce_4 to the_joystick/joystick_right_debounce_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y46.YQ      Tcko                  0.470   the_joystick/joystick_right_debounce<5>
+                                                       the_joystick/joystick_right_debounce_4
+    SLICE_X23Y46.BX      net (fanout=2)        0.417   the_joystick/joystick_right_debounce<4>
+    SLICE_X23Y46.CLK     Tckdi       (-Th)    -0.093   the_joystick/joystick_right_debounce<5>
+                                                       the_joystick/joystick_right_debounce_5
+    -------------------------------------------------  ---------------------------
+    Total                                      0.980ns (0.563ns logic, 0.417ns route)
+                                                       (57.4% logic, 42.6% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: PERIOD analysis for net "my_clock/CLKFX_BUF" derived from
+ NET "my_clock/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+ divided by 2.50 to 12.500 nS and duty cycle corrected to HIGH 6.250 nS 
+
+--------------------------------------------------------------------------------
+Slack: 9.324ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 12.500ns
+  Low pulse: 6.250ns
+  Low pulse limit: 1.588ns (Tbpwl)
+  Physical resource: animation/mem_core/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram/CLKA
+  Logical resource: animation/mem_core/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.A/CLKA
+  Location pin: RAMB16_X0Y5.CLKA
+  Clock network: local_clock
+--------------------------------------------------------------------------------
+Slack: 9.324ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 12.500ns
+  High pulse: 6.250ns
+  High pulse limit: 1.588ns (Tbpwh)
+  Physical resource: animation/mem_core/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram/CLKA
+  Logical resource: animation/mem_core/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.A/CLKA
+  Location pin: RAMB16_X0Y5.CLKA
+  Clock network: local_clock
+--------------------------------------------------------------------------------
+Slack: 9.324ns (period - min period limit)
+  Period: 12.500ns
+  Min period limit: 3.176ns (314.861MHz) (Tbp)
+  Physical resource: animation/mem_core/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram/CLKA
+  Logical resource: animation/mem_core/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.A/CLKA
+  Location pin: RAMB16_X0Y5.CLKA
+  Clock network: local_clock
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for my_clock/CLKIN_IBUFG
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|my_clock/CLKIN_IBUFG           |     31.250ns|     10.000ns|     19.525ns|            0|            0|            0|         4898|
+| my_clock/CLKFX_BUF            |     12.500ns|      7.810ns|          N/A|            0|            0|         4898|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    7.810|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 4898 paths, 0 nets, and 1074 connections
+
+Design statistics:
+   Minimum period:  10.000ns{1}   (Maximum frequency: 100.000MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Oct 15 23:25:41 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 123 MB
+
+
+

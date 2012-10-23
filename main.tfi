@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+main instance_name (
+    .LED(LED), 
+    .CLK(CLK)
+    );
+
+

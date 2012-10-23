@@ -1,0 +1,10 @@
+MO seven_seg NULL main.v vlg6F/seven__seg.bin 1350368712
+MO seven_seg_mux NULL main.v vlg48/seven__seg__mux.bin 1349030006
+MO joystick_reader NULL main.v vlg4A/joystick__reader.bin 1350368712
+MO bram NULL ipcore_dir/bram.v vlg4E/bram.bin 1350085654
+MO main NULL main.v vlg2D/main.bin 1350368712
+MO eight_bit_double_sync NULL main.v vlg41/eight__bit__double__sync.bin 1350368712
+MO led_playback NULL main.v vlg13/led__playback.bin 1350368712
+MO four_digit_display NULL main.v vlg55/four__digit__display.bin 1350368712
+MO blinky_ram NULL ipcore_dir/blinky_ram_synth.v vlg50/blinky__ram.bin 1350368712
+MO clocky NULL clocky.v vlg19/clocky.bin 1350368712

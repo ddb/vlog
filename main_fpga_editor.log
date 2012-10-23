@@ -1,0 +1,227 @@
+#:C103   
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.28xd
+#Current Working Directory:
+#:D   Z:\Documents\Source\github\vlog
+#Date/Time:
+#:T   Mon Oct 15 18:02:29 2012
+#------------------------------
+	#Reading main.ncd...
+	#Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\14.2\ISE_DS\ISE\.
+	#   "main" is an NCD, version 3.2, device xc3s500e, package vq100, speed -4
+	#Design creation date: 2012.10.16.00.59.27
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+hilite -c violet
+	#WARNING:FPGAEditor:48 - Nothing to hilite -- there is nothing selected.
+	#3
+select -k comp 'JOYSTICK<1>'
+	#4
+hilite -c violet
+	#5
+unselect comp 'JOYSTICK<1>'
+	#6
+select -k comp 'JOYSTICK<2>'
+	#7
+hilite -c violet
+	#8
+unselect comp 'JOYSTICK<2>'
+	#9
+select -k comp 'JOYSTICK<3>'
+	#10
+hilite -c violet
+	#11
+unselect comp 'JOYSTICK<3>'
+	#12
+select -k comp 'JOYSTICK<4>'
+	#13
+hilite -c violet
+	#14
+unselect comp 'JOYSTICK<4>'
+	#15
+select -k comp 'digit_window<14>'
+	#16
+unselect comp 'digit_window<14>'
+	#17
+select -k comp 'JOYSTICK<0>'
+	#18
+hilite -c violet
+	#19
+unselect comp 'JOYSTICK<0>'
+	#20
+select -k comp 'joystick_down'
+	#21
+unselect comp 'joystick_down'
+	#22
+select -k comp 'JOYSTICK<4>'
+	#23
+refresh
+	#24
+refresh
+	#25
+setattr main disable_draw on
+	#26
+setattr layer ratsnests view off
+	#27
+setattr main disable_draw off
+	#Hint: change the visibility of more than one layer at a time by clicking on the apply button, clicking two or more layer buttons, and then clicking on the apply button again.
+	#28
+setattr main disable_draw on
+	#29
+setattr layer routes view off
+	#30
+setattr main disable_draw off
+	#31
+setattr main disable_draw on
+	#32
+setattr layer components view off
+	#33
+setattr main disable_draw off
+	#34
+setattr main disable_draw on
+	#35
+setattr layer routes view on
+	#36
+setattr main disable_draw off
+	#37
+setattr main disable_draw on
+	#38
+setattr layer routes view off
+	#39
+setattr main disable_draw off
+	#40
+setattr main disable_draw on
+	#41
+setattr layer routes view on
+	#42
+setattr main disable_draw off
+	#43
+setattr main disable_draw on
+	#44
+setattr layer components view on
+	#45
+setattr main disable_draw off
+	#46
+setattr main disable_draw on
+	#47
+setattr layer components view off
+	#48
+setattr main disable_draw off
+	#49
+setattr main disable_draw on
+	#50
+setattr layer components view on
+	#51
+setattr main disable_draw off
+	#52
+setattr main disable_draw on
+	#53
+setattr layer ratsnests view on
+	#54
+setattr main disable_draw off
+	#55
+setattr main disable_draw on
+	#56
+setattr layer text view on
+	#57
+setattr main disable_draw off
+	#58
+setattr main disable_draw on
+	#59
+setattr layer text view off
+	#60
+setattr main disable_draw off
+	#61
+setattr main disable_draw on
+	#62
+setattr layer pips view on
+	#63
+setattr main disable_draw off
+	#64
+setattr main disable_draw on
+	#65
+setattr layer pips view off
+	#66
+setattr main disable_draw off
+	#67
+setattr main disable_draw on
+	#68
+setattr layer pinwires view on
+	#69
+setattr main disable_draw off
+	#70
+setattr main disable_draw on
+	#71
+setattr layer pinwires view off
+	#72
+setattr main disable_draw off
+	#73
+setattr main disable_draw on
+	#74
+setattr layer pinwires view on
+	#75
+setattr main disable_draw off
+	#76
+setattr main disable_draw on
+	#77
+setattr layer pinwires view off
+	#78
+setattr main disable_draw off
+	#79
+setattr main disable_draw on
+	#80
+setattr layer long_lines view on
+	#81
+setattr main disable_draw off
+	#82
+setattr main disable_draw on
+	#83
+setattr layer long_lines view off
+	#84
+setattr main disable_draw off
+	#85
+setattr main disable_draw on
+	#86
+setattr layer local_lines view on
+	#87
+setattr main disable_draw off
+	#88
+setattr main disable_draw on
+	#89
+setattr layer local_lines view off
+	#90
+setattr main disable_draw off
+	#91
+setattr main disable_draw on
+	#92
+setattr layer local_lines view off
+	#93
+setattr main disable_draw off
+	#94
+setattr main disable_draw on
+	#95
+setattr layer long_lines view off
+	#96
+setattr main disable_draw off
+	#97
+setattr main disable_draw on
+	#98
+setattr layer pinwires view off
+	#99
+setattr main disable_draw off
+	#100
+unselect -all
+	#101
+select comp 'JOYSTICK<4>'
+	#comp "JOYSTICK<4>",  site "P22",  bonded type = IBUF,  pad name = PAD177,  pin name = P22  (RPM grid X3Y4)
+	#102
+unselect -all
+	#103
+select comp 'JOYSTICK<4>'
+	#comp "JOYSTICK<4>",  site "P22",  bonded type = IBUF,  pad name = PAD177,  pin name = P22  (RPM grid X3Y4)
+	#104
+post block

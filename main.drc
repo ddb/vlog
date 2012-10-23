@@ -1,0 +1,12 @@
+Release 14.2 Drc P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Oct 15 23:25:44 2012
+
+drc -z main.ncd main.pcf
+
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp my_clock/DCM_SP_INST,
+   consult the device Interactive Data Sheet.
+DRC detected 0 errors and 28 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

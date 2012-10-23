@@ -1,0 +1,3 @@
+verilog work "clocky.v"
+verilog work "ipcore_dir/blinky_ram_synth.v"
+verilog work "main.v"

@@ -1,0 +1,561 @@
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xa7a100t-csg324-2I main.ngc main.ngd  
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+vhdtdtfi -lang verilog -prj vlog -o Z:/Documents/Source/github/vlog/main.tfi -lib work Z:/Documents/Source/github/vlog//main.v -module main -template C:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+pin2ucf main.ncd -o Z:/Documents/Source/github/vlog/mapping.ucf -r main.lck 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -ifn "Z:/Documents/Source/github/vlog/main.xst" -ofn "Z:/Documents/Source/github/vlog/main.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mapping.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -filter "Z:/Documents/Source/github/vlog/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -filter Z:/Documents/Source/github/vlog/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf mapping.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f main.ut main.ncd 
